@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <h2>&#x1F4BB; Web Development</h2>
+        <div class="navbar">
+            <button class="menu-button" onclick="toogleNav()">&#9776;</button>
+            <div id="navLinks" class="nav-links">
+                <div class="search"><input type="search" placeholder="Search">
+                    <div class="lin"></div><span>&#x1F50E;</span>
+                </div>
+                <button class="close-button" onclick="toogleNav()">&times;</button>
+                <a class="navlink" id="home-link" href="/index.html">&#x25B6; Home</a>
+                <a class="navlink" id="home-link" href="/about.html">&#x2139; About</a>
+                <a class="navlink" id="home-link" href="/service.html">&#x2699; Services</a>
+                <a class="navlink" id="home-link" href="/contact.html">&#x2709; Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <form action="">
+        <label for="profileimage"></label>
+        <input type="file" accept="`image/`">
+    </form>
+    <script src="profile.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

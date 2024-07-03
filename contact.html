@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-signup.css">
+    <title>Login/Signup</title>
+</head>
+
+<body>
+
+
+    <!-- ------------------------------------------Navbar---------------------------------------------------->
+
+
+    <nav>
+        <h2>&#x1F4BB; Web Development</h2>
+        <div class="navbar">
+            <button class="menu-button" onclick="toogleNav()">&#9776;</button>
+            <div id="navLinks" class="nav-links">
+                <div class="search"><input type="search" placeholder="Search">
+                    <div class="lin"></div><span>&#x1F50E;</span>
+                </div>
+                <button class="close-button" onclick="toogleNav()">&times;</button>
+                <a class="navlink" id="home-link" href="index.html">&#x25B6; Home</a>
+                <a class="navlink" id="home-link" href="about.html">&#x2139; About</a>
+                <a class="navlink" id="home-link" href="service.html">&#x2699; Services</a>
+                <a class="navlink" id="home-link" href="contact.html">&#x2709; Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ------------------------------------------Login signup container------------------------------------>
+
+<section class="body">
+        <div class="container">
+            <div class="form-container hidden" id="loginform">
+                <h2>Login</h2>
+                <form >
+                    <label for="loginEmail">Email:</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                    <label for="loginPassword" >Password:</label>
+                    <input type="password" name="password" id="loginPassword" required>
+                    <button ><a href="profile/profile.html">Login</a></button>
+                </form>
+                <p >Don't have an account? <a href="#" id="showSignup">Signup</a></p>
+            </div>
+            <div class="form-container " id="signupform">
+                <h2>Signup</h2>
+                <form>
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" required>
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" required>
+                    <label for="signupConfirmPassword">Confirm Password:</label>
+                    <input type="password" id="signupConfirmPassword" required>
+
+                    <button type="submit">Signup</button>
+                </form>
+                <p>Already have an account? <a href="#" id="showlogin">Login</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------------------------------footer---------------------------------------------------->
+
+
+    <footer>
+        <div class="ends">&copy; 2024-2025 || www.websiter.com</div>
+    </footer>
+    <div class="back-to-top">
+        <a href=""><button id="back-to-top" title="Back to top">&#x2191;</button></a>
+    </div>
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
