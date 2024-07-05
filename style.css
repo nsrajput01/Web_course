@@ -25,10 +25,34 @@ nav {
 
 .wlcmpage{
     display: flex;
+    text-align: center;
     height: 85vh;
     align-items: center;
     justify-content: center;
+    color: white;
     background: linear-gradient(to right, rgb(46, 46, 255, 0.7), rgb(0, 0, 95, 0.7));  
+}
+
+.typewriter h1{
+    display: inline-block;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+.typewriter h1.typing{
+    animation: typing 4s steps(40, end),blink 0.75s step-end infinite;
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to{width: 100%; }
+}
+
+@keyframes blink{
+    from, to {border-color: transparent;}
+    50%{border-color: black;}
 }
 
 nav h2 {
