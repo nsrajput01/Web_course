@@ -183,7 +183,7 @@ section {
 
 @media(max-width:758px) {
     .navbar {
-        background-color: #333;
+        background-color: #2F80ED;
         overflow: hidden;
         position: relative;
         height: 50px;
