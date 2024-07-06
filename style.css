@@ -410,17 +410,14 @@ p {
 
 .flip-front {
     background: #56CCF2;
-
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
-
     background: linear-gradient(to right, #2F80ED, #56CCF2);
-
     color: #ffffff;
     padding: 20px;
 }
 
 .flip-front .profile-image1 {
-    background-image: url("—Pngtree—web development illustration modern_4484303.png");
+    background-image: url("software-developer-6521720_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
