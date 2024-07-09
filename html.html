@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML</title>
 </head>
 <body>
-    
+    <nav>
+        <h2>&#x1F4BB; Web Development</h2>
+    <div class="navbar">
+        <button class="menu-button" onclick="toogleNav()">&#9776;</button>
+        <div id="navLinks" class="nav-links">
+            <div class="search"><input type="search" placeholder="Search">
+                <div class="lin"></div><span>&#x1F50E;</span>
+            </div>
+            <button class="close-button" onclick="toogleNav()">&times;</button>
+            <a class="navlink" id="home-link" href="index.html">&#x25B6; Home</a>
+            <a class="navlink" id="home-link" href="about.html">&#x2139; About</a>
+            <a class="navlink" id="home-link" href="service.html">&#x2699; Services</a>
+            <a class="navlink" id="home-link" href="contact.html">&#x2709; Sign In</a>
+        </div>
+    </div>
+</nav>
+<script src="script.js"></script>
 </body>
 </html>

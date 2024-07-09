@@ -30,33 +30,33 @@ mybutton.onclick = function(){
     document.documentElement.scrollTop = 0;
 }
 
-document.getElementById('popupButton').addEventListener(
-    'click', function(){
-        var popup = document.getElementById('popup');
-        popup.style.display = 'flex';
-        setTimeout(function(){
-            popup.style.display = 'none';
-        }, 7000);
-    }
-);
-document.getElementById('popupButto').addEventListener(
-    'click', function(){
-        var popup = document.getElementById('popu');
-        popup.style.display = 'flex';
-        setTimeout(function(){
-            popup.style.display = 'none';
-        }, 7000);
-    }
-);
-document.getElementById('popupButt').addEventListener(
-    'click', function(){
-        var popup = document.getElementById('pop');
-        popup.style.display = 'flex';
-        setTimeout(function(){
-            popup.style.display = 'none';
-        }, 7000);
-    }
-);
+// document.getElementById('popupButton').addEventListener(
+//     'click', function(){
+//         var popup = document.getElementById('popup');
+//         popup.style.display = 'flex';
+//         setTimeout(function(){
+//             popup.style.display = 'none';
+//         }, 7000);
+//     }
+// );
+// document.getElementById('popupButto').addEventListener(
+//     'click', function(){
+//         var popup = document.getElementById('popu');
+//         popup.style.display = 'flex';
+//         setTimeout(function(){
+//             popup.style.display = 'none';
+//         }, 7000);
+//     }
+// );
+// document.getElementById('popupButt').addEventListener(
+//     'click', function(){
+//         var popup = document.getElementById('pop');
+//         popup.style.display = 'flex';
+//         setTimeout(function(){
+//             popup.style.display = 'none';
+//         }, 7000);
+//     }
+// );
 
 
 
